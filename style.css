@@ -436,6 +436,7 @@ What We Do Starts Here
 .image-toggler {
   display: grid;
   grid-template-columns: 9fr 4fr;
+  /* grid-template-rows: 1fr 1fr 1fr; */
   padding: 60px 0;
 }
 
@@ -447,6 +448,7 @@ What We Do Starts Here
 
 .image-toggler .img {
   display: none;
+
 }
 
 .image-toggler .img.active {
